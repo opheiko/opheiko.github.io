@@ -1,4 +1,4 @@
-**Hello world** 
-- This is a list
+## Hello world
+ - This is a test
 
-$\Omega = 2 \pi f $
+ $$ \Omega = \phi 2 \pi $
