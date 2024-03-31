@@ -24,14 +24,33 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+collections:
+  subjects:
+    output: true
+  posts:
+    output: true
+
+
 # Build settings
 markdown: kramdown
-theme: minima
-remote_theme: pages-themes/minimal@v0.2.0
+theme: just-the-docs
+#theme: minima
+#remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
+github: [metadata]
 
+#kramdown:
+#    math-engine: katex
+math: mathjax
+
+just_the_docs:
+  collections:
+    posts:
+      name: Posts
+    subjects:
+      name: Topics
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
