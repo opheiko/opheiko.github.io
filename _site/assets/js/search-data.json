@@ -1,0 +1,37 @@
+{"0": {
+    "doc": "About",
+    "title": "About",
+    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "url": "/about/",
+    
+    "relUrl": "/about/"
+  },"1": {
+    "doc": "Hello world",
+    "title": "Hello world",
+    "content": "## Hello world - This is a test $$ \\Omega = \\phi 2 \\pi $$ ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"2": {
+    "doc": "Welcome to Jekyll!",
+    "title": "Welcome to Jekyll!",
+    "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: . def print_hi(name) puts \"Hi, #{name}\" end print_hi('Tom') #=&gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk. ",
+    "url": "/jekyll/update/2024/03/31/welcome-to-jekyll.html",
+    
+    "relUrl": "/jekyll/update/2024/03/31/welcome-to-jekyll.html"
+  },"3": {
+    "doc": "I like math",
+    "title": "This is a test",
+    "content": " ",
+    "url": "/subjects/math.html#this-is-a-test",
+    
+    "relUrl": "/subjects/math.html#this-is-a-test"
+  },"4": {
+    "doc": "I like math",
+    "title": "I like math",
+    "content": " ",
+    "url": "/subjects/math.html",
+    
+    "relUrl": "/subjects/math.html"
+  }
+}
