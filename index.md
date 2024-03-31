@@ -1,3 +1,4 @@
-markdown: GFM
+**Hello world** 
+- This is a list
 
-** Hello world ** 
+$\Omega = 2 \pi f $
