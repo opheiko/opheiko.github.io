@@ -43,7 +43,6 @@ github: [metadata]
 
 #kramdown:
 #    math-engine: katex
-math: mathjax
 
 just_the_docs:
   collections:
