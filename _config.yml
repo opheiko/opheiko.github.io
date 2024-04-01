@@ -25,10 +25,30 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  jekyll
 
 collections:
-  subjects:
-    output: true
-  posts:
-    output: true
+    posts:
+      name: Posts
+      output: true
+    cfd_nm:
+      name: Computational Fluid Dynamics and Numerical Methods
+      output: true
+    chem:
+      name: Chemistry and other science
+      output: true
+    ctrl:
+      name: Control Theory
+      output: true
+    gfd:
+      name: Geophysical Fluid Dynamics and Oceanography
+      output: true
+    ml_math:
+      name: Machine Learning and Related Math
+      output: true
+    open_science:
+      name: Open Science and other Open-Source Data
+      output: true
+    code:
+      name: Code and Programming
+      output: true
 
 
 # Build settings
@@ -48,8 +68,32 @@ just_the_docs:
   collections:
     posts:
       name: Posts
-    subjects:
-      name: Topics
+      nav_fold: true
+    cfd_nm:
+      name: Computational Fluid Dynamics and Numerical Methods
+      nav_fold: true
+    chem:
+      name: Chemistry and other science
+      nav_fold: true
+    ctrl:
+      name: Control Theory
+      nav_fold: true
+    gfd:
+      name: Geophysical Fluid Dynamics and Oceanography
+      nav_fold: true
+    ml_math:
+      name: Machine Learning and Related Math
+      nav_fold: true
+    open_science:
+      name: Open Science and other Open-Source Data
+      nav_fold: true
+    code:
+      name: Code and Programming
+      nav_fold: true
+
+
+    
+    
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
