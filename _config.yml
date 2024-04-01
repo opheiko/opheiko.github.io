@@ -23,6 +23,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
+# Load plugins
+gems: ['jekyll/scholar']
+
 
 collections:
     posts:
@@ -57,8 +60,9 @@ theme: just-the-docs
 #theme: minima
 #remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+#  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
+  - jekyll-scholar
 github: [metadata]
 
 #kramdown:
@@ -91,8 +95,34 @@ just_the_docs:
       name: Code and Programming
       nav_fold: true
 
+#
+# citations and bibliography
+#
 
-    
+scholar:
+  style: elsevier-with-titles-alphabetical
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: ""
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
     
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
